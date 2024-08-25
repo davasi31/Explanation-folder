@@ -1,0 +1,56 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif; /* Sets the font for the entire page */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    background-color: #f4f4f4; /* Sets a light gray background color */
+}
+
+/* Header Styles */
+header {
+    background-color: #333; /* Dark background for the header */
+    color: #fff; /* White text color */
+    padding: 10px 0; /* Vertical padding */
+    text-align: center; /* Center-aligns text */
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style: none; /* Removes bullet points from the list */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+}
+
+nav ul li {
+    display: inline; /* Displays list items horizontally */
+    margin-right: 10px; /* Adds space between links */
+}
+
+nav ul li a {
+    color: #fff; /* White text color for links */
+    text-decoration: none; /* Removes underline from links */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underlines links on hover */
+}
+
+/* Main Content Styles */
+main {
+    margin: 20px; /* Adds space around the main content */
+    padding: 20px; /* Adds padding inside the main content */
+    background-color: #fff; /* White background for the main content */
+    border-radius: 8px; /* Rounds the corners of the main content area */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333; /* Dark background for the footer */
+    color: #fff; /* White text color */
+    padding: 10px 0; /* Vertical padding */
+    text-align: center; /* Center-aligns text */
+    position: fixed; /* Fixes the footer at the bottom of the viewport */
+    width: 100%; /* Makes the footer span the full width of the viewport */
+    bottom: 0; /* Aligns the footer to the bottom */
+}
